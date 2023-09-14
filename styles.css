@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+} 
