@@ -1,0 +1,19 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leo-name{
+    display: flex;
+    text-align: center;
+}
+
+.leora-wide-angle{
+    width: 150px;
+    border-radius: 10px;
+}
