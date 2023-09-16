@@ -6,9 +6,9 @@ body {
     background: rgb(255, 175, 228);
     background: linear-gradient(
         0deg,
-        rgb(235, 7, 209) 0%,
+        rgb(235, 7, 182) 0%,
         rgb(214, 31, 187) 35%,
-        rgb(221, 101, 227) 69%,
+        rgb(227, 101, 210) 69%,
         rgb(248, 190, 250) 100%
   );
 }
@@ -65,6 +65,8 @@ nav{
 .presentation__aly img {
     width: 350px;
     border-radius: 10%;
+
+    margin-top: 32px;
 }
 
 .nourriture {
@@ -88,4 +90,15 @@ footer {
     text-align: center;
     font-style: italic;
     color: aquamarine;
+}
+
+@media screen and (max-width: 800px) {
+    .intro__aly {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentation__aly img {
+        width: 200px;
+    }
 }
