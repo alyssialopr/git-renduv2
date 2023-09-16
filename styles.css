@@ -1,14 +1,37 @@
+body {
+    background-color: pink;
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-ul{
-    list-style: none;
+.prez-aly {
+    background-color: aqua;
+
 }
 
-li{
+/* Introduction Alyssia */
+
+.description__aly{
     display: flex;
-    align-items: center;
-} 
+}
+
+.description__aly p {
+    border: black;
+}
+
+.intro__aly img {
+    border-radius: 10%;
+}
+
+.passions__aly{
+    display: flex;
+    justify-content: space-between;
+}
+
+.passions__aly {
+    background-color: aliceblue;
+}
