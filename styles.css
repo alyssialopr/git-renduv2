@@ -1,5 +1,16 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-    background-color: pink;
+    background: rgb(255, 175, 228);
+    background: linear-gradient(
+        0deg,
+        rgb(235, 7, 209) 0%,
+        rgb(214, 31, 187) 35%,
+        rgb(221, 101, 227) 69%,
+        rgb(248, 190, 250) 100%
+  );
 }
 
 nav{
@@ -9,29 +20,72 @@ nav{
 }
 
 .prez-aly {
-    background-color: aqua;
-
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 /* Introduction Alyssia */
 
-.description__aly{
+.intro__aly {
     display: flex;
 }
 
-.description__aly p {
-    border: black;
+.description__aly {
+    margin: auto;
+    margin-left: 16px;
+    padding: 4px;
+    border-radius: 4px;
+
+    border: solid rgb(255, 0, 221);
+    background-color: rgb(255, 230, 250);
 }
 
-.intro__aly img {
+/*profil Aly*/
+
+.profil {
+    text-align: center;
+}
+
+.profil p {
+    font-style: italic;
+}
+
+.profil img {
     border-radius: 10%;
 }
 
-.passions__aly{
-    display: flex;
-    justify-content: space-between;
+/* Présentation Aly */
+
+.presentation__aly {
+    text-align: center;
 }
 
-.passions__aly {
-    background-color: aliceblue;
+.presentation__aly img {
+    width: 350px;
+    border-radius: 10%;
+}
+
+.nourriture {
+    padding: 4px;
+    border-radius: 4px;
+
+    border: solid rgb(255, 0, 221);
+    background-color: rgb(255, 230, 250); 
+}
+.anecdotes {
+    padding: 4px;
+    border-radius: 4px;
+
+    border: solid rgb(255, 0, 221);
+    background-color: rgb(255, 230, 250);
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: aquamarine;
 }
