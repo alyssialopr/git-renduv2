@@ -86,3 +86,26 @@ body {
   margin-top: 20px;
   width: 600px;
 }
+
+.band{
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  width: 330px;
+  height: 1700px;
+  border-radius: 20px;
+  border: solid rgb(176, 61, 221) 5px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .band{
+    object-fit: scale-down;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .band{
+    visibility: hidden;
+  }
+}
