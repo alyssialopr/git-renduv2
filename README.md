@@ -1,6 +1,6 @@
-# Site de Présentation Alyssia et Léora
+# Site de Présentation Alyssia et Léora ✨
 
 Comprend :
-* un fichier hmtl
-* un fichier Css
-* un fichier JS
+* 🏋un fichier hmtl
+* 🌸un fichier Css
+* 🫙un fichier JS
