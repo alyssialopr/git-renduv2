@@ -15,6 +15,5 @@ const btnleo = document.getElementById("leo");
 
 btnleo.onclick = function () {
   leo.style.display = "block";
-  aly.style.display = "hidden";
 };
 
