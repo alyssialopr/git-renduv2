@@ -65,6 +65,7 @@ nav{
 .presentation__aly img {
     width: 350px;
     border-radius: 10%;
+    border: solid rgb(255, 0, 221);
 
     margin-top: 32px;
 }
